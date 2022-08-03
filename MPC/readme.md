@@ -3,5 +3,7 @@
 
 ## Note
 
-1. `CarsimDClassSUVDatasets/` -- is the datasets in the paper, the traning/testing/validating files were randomly selected. Original files are in the folder `DDK/datasets`
+1. `CarsimDClassSUVDatasets/` -- is the datasets in the paper, the traning/testing/validating files were randomly selected. Note that the longitudinal and lateral velocities, and the yaw rate of trajectories in datasets in this folder have been normalized. Original files are in the folder `DDK/datasets`. 
 2. `params_for_matlab_CarsimDClassSUV_2022_07_24_15_23.mat` -- is the params of the DDK model including weights and biases of the encoder, decoder, koopman operator.
+3. `DDK_DCSUV_50ms.slx` -- is the simulink file (MATLAB 2021b).
+4.  `DDK_DCSUV_50ms_2020a.slx` -- simulink file (MATLAB 2020a).

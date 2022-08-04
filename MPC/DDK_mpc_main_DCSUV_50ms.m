@@ -40,9 +40,9 @@ switch datatype
         s_index = train_file_num + 1 + val_file_num;
 end
 tempQ = diag([20, 1000, 1000, 1000, 20, 20]);    % matrix Q
-RTimes = 5; % matrix R
+RTimes = diag([5, 10000]); % matrix R
 
-for i=s_index+2:file_num
+for i=s_index:file_num
     seq_nearest_idx = [];
     if i <= train_file_num
         datatype = 'train';

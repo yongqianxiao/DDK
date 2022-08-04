@@ -42,7 +42,7 @@ end
 tempQ = diag([20, 1000, 1000, 1000, 20, 20]);    % matrix Q
 RTimes = diag([5, 10000]); % matrix R
 
-for i=s_index:file_num
+for i=s_index:s_index+file_num
     seq_nearest_idx = [];
     if i <= train_file_num
         datatype = 'train';

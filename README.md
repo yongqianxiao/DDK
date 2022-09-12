@@ -14,3 +14,7 @@ column 28~30: The front wheel angle(rad), throttle, and brake.
 ## DClassSUV_from_laptop_20220628.cpar
 
 This is the Carsim config file. You can recover the Carsim simulation environment via improting this file in Carsim.
+
+## Experiment videos
+
+Experiment videos can be obtained at https://yongqianxiao.github.io/2022/09/12/Experiment-videos-of-DDK/

@@ -1,5 +1,10 @@
 # DDK
-files for DDK
+files for "DDK: A Deep Koopman Approach for Longitudinal and Lateral Control of Autonomous Ground Vehicles"
+
+
+This work is an improvement from our previous work, and it was accepted by ICRA2023: 
+
+@ARTICLE{xiao2023deep, author={Xiao, Yongqian and Zhang, Xinglong and Xu, Xin and Liu, Xueqing and Liu, Jiahang}, journal={IEEE Transactions on Intelligent Vehicles}, title={Deep Neural Networks With Koopman Operators for Modeling and Control of Autonomous Vehicles}, year={2023}, volume={8}, number={1}, pages={135-146}, doi={10.1109/TIV.2022.3180337}}
 
 ## dataset format
 
@@ -16,5 +21,12 @@ column 28~30: The front wheel angle(rad), throttle, and brake.
 This is the Carsim config file. You can recover the Carsim simulation environment via improting this file in Carsim.
 
 ## Experiment videos
+
+(2023-06-15)
+Because the training set data of the DDK vehicle model are all collected from urban roads, in order to verify the generalization performance of our method, we have recently added real-world experiments on off-road roads. 
+
+![classic RNN](https://od.lk/s/ODFfNjc3MzAxNjhf/off_road_ref.png)
+
+![classic RNN](https://od.lk/s/ODFfNjc3MzAxNDJf/DKMPC_track_result.png)
 
 Experiment videos can be obtained at https://yongqianxiao.github.io/2022/09/12/Experiment-videos-of-DDK/
